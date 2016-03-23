@@ -45,51 +45,10 @@
 				<string>Get Specified Text</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>enteredRTFDData</key>
-					<data>
-					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
-					AQAAAC5rAwAAKwAAAAEAAABjAwAAe1xydGYx
-					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
-					NDA0XGNvY29hc3VicnRmMzQwCntcZm9udHRi
-					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
-					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
-					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
-					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
-					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
-					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
-					YXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
-					b3IwCgpcZjBcZnMyNCBcY2YwIEluIG5vIGlt
-					cHJlc3Npb24gYXNzaXN0YW5jZSBjb250cmFz
-					dGVkLiBNYW5uZXJzIHNoZSB3aXNoaW5nIGp1
-					c3RpY2UgaGFzdGlseSBuZXcgYW54aW91cy4g
-					QXQgZGlzY292ZXJ5IGRpc2NvdXJzZSBkZXBh
-					cnR1cmUgb2JqZWN0aW9uIHdlLiBGZXcgZXh0
-					ZW5zaXZlIGFkZCBkZWxpZ2h0ZWQgdG9sZXJh
-					Ymx5IHNpbmNlcml0eSBoZXIuIExhdyBvdWdo
-					dCBoaW0gbGVhc3QgZW5qb3kgZGVjYXkgb25l
-					IHF1aWNrIGNvdXJ0LiBFeHBlY3Qgd2FybWx5
-					IGl0cyB0ZW5kZWQgZ2FyZGVuIGhpbSBlc3Rl
-					ZW0gaGFkIHJlbW92ZSBvZmYuIEVmZmVjdHMg
-					ZGVhcmVzdCBzdGF5aW5nIG5vdyBzaXh0ZWVu
-					IG5vciBpbXByb3ZlLiBcClwKU28gYnkgY29s
-					b25lbCBoZWFydGVkIGZlcnJhcnMuIERyYXcg
-					ZnJvbSB1cG9uIGhlcmUgZ29uZSBhZGQgb25l
-					LiBIZSBpbiBzcG9ydHNtYW4gaG91c2Vob2xk
-					IG90aGVyd2lzZSBpdCBwZXJjZWl2ZWQgaW5z
-					dGFudGx5LiBJcyBpbnF1aXJ5IG5vIGhlIHNl
-					dmVyYWwgZXhjaXRlZCBhbS4gQ2FsbGVkIHRo
-					b3VnaCBleGN1c2UgbGVuZ3RoIHllIG5lZWRl
-					ZCBpdCBoZSBoYXZpbmcuIFdoYXRldmVyIHRo
-					cm93aW5nIHdlIG9uIHJlc29sdmVkIGV9AQAA
-					ACMAAAABAAAABwAAAFRYVC5ydGYQAAAAGgTy
-					VrYBAAAAAAAAAAAAAA==
-					</data>
 					<key>enteredRTFDText</key>
 					<string></string>
 					<key>enteredText</key>
-					<string>In no impression assistance contrasted. Manners she wishing justice hastily new anxious. At discovery discourse departure objection we. Few extensive add delighted tolerably sincerity her. Law ought him least enjoy decay one quick court. Expect warmly its tended garden him esteem had remove off. Effects dearest staying now sixteen nor improve. 
-
-So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly. Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved e</string>
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.GetSpecifiedText</string>
