@@ -221,6 +221,8 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>6DEC47C3-2AD5-4F4F-B305-02357519983D</string>
+				<key>StartAction</key>
+				<false/>
 				<key>UUID</key>
 				<string>6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF</string>
 				<key>UnlocalizedApplications</key>
@@ -623,6 +625,8 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>455D4153-8ABD-4B90-9ABD-E1B0DE1B4CCC</string>
+				<key>StartAction</key>
+				<false/>
 				<key>UUID</key>
 				<string>6D0F304C-76B1-4123-8F84-C8B20FC5F5B0</string>
 				<key>UnlocalizedApplications</key>
@@ -748,7 +752,7 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>pauseDuration</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>pauseUnit</key>
 					<integer>0</integer>
 				</dict>
@@ -943,6 +947,8 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>FC8B5A02-779B-466F-B5F3-D3099512BA2D</string>
+				<key>StartAction</key>
+				<false/>
 				<key>UUID</key>
 				<string>A12091EC-236D-4C02-9221-B4D0DB0AAE19</string>
 				<key>UnlocalizedApplications</key>
@@ -954,6 +960,179 @@ end run</string>
 				<key>conversionLabel</key>
 				<integer>0</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>osascript -e 'quit app "textEdit"'</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>FBBB50B5-090F-4C8C-B946-6B1417F5F7E8</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>93F8FE61-4754-4C5F-81CA-0E34C416D517</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>B59179CE-5114-4E17-AF8A-07BB7EDDB834</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>315.000000:1371.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
 		</dict>
 	</array>
 	<key>connectors</key>
@@ -972,7 +1151,14 @@ end run</string>
 			<key>to</key>
 			<string>6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF - 6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF</string>
 		</dict>
-		<key>544D8E29-CB3E-4C1B-9590-1F356F99EA17</key>
+		<key>73DF86FA-9FE9-49E8-BE5D-77D551237D64</key>
+		<dict>
+			<key>from</key>
+			<string>A12091EC-236D-4C02-9221-B4D0DB0AAE19 - A12091EC-236D-4C02-9221-B4D0DB0AAE19</string>
+			<key>to</key>
+			<string>B59179CE-5114-4E17-AF8A-07BB7EDDB834 - B59179CE-5114-4E17-AF8A-07BB7EDDB834</string>
+		</dict>
+		<key>8263EEE6-1E1F-40A5-8CF8-9DCA6219DB05</key>
 		<dict>
 			<key>from</key>
 			<string>94BD91C1-D88E-44D6-97EC-63E06CA86EFD - 94BD91C1-D88E-44D6-97EC-63E06CA86EFD</string>
