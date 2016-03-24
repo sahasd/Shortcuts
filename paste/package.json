@@ -6,6 +6,7 @@
     "start": "node PasteShortcut.js"
   },
   "dependencies": {
+    "better-pastebin": "^0.1.5",
     "pastebin-js": "^0.4.0"
   }
 }
