@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Paste</string>
+				<string>PasteShortcut</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>

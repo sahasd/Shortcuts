@@ -13,225 +13,75 @@
 		<dict>
 			<key>action</key>
 			<dict>
-				<key>AMActionVersion</key>
-				<string>1.2.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>TextEdit</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>enteredRTFDData</key>
-					<dict/>
-					<key>enteredRTFDText</key>
-					<dict/>
-					<key>enteredText</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
+				<key>AMAccepts</key>
 				<dict>
 					<key>Container</key>
-					<string>Single</string>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
 					<key>Types</key>
 					<array>
 						<string>com.apple.cocoa.attributed-string</string>
 					</array>
 				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Specified Text.action</string>
+				<string>/System/Library/Automator/Copy to Clipboard.action</string>
 				<key>ActionName</key>
-				<string>Get Specified Text</string>
+				<string>Copy to Clipboard</string>
 				<key>ActionParameters</key>
-				<dict>
-					<key>enteredRTFDData</key>
-					<data>
-					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
-					AQAAAC6XAwAAKwAAAAEAAACPAwAAe1xydGYx
-					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
-					NDA0XGNvY29hc3VicnRmMzQwCntcZm9udHRi
-					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
-					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
-					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
-					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
-					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
-					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
-					YXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
-					b3IwCgpcZjBcZnMyNCBcY2YwIGZzLmpzOjUw
-					MFwKICByZXR1cm4gYmluZGluZy5vcGVuKHBh
-					dGhNb2R1bGUuX21ha2VMb25nKHBhdGgpLCBz
-					dHJpbmdUb0ZsYWdzKGZsYWdzKSwgbW9kZSk7
-					XAogICAgICAgICAgICAgICAgIF5cCkVycm9y
-					OiBFTk9FTlQsIG5vIHN1Y2ggZmlsZSBvciBk
-					aXJlY3RvcnkgJ2NyZWRlbnRpYWxzLmpzb24n
-					XAogICAgYXQgRXJyb3IgKG5hdGl2ZSlcCiAg
-					ICBhdCBPYmplY3QuZnMub3BlblN5bmMgKGZz
-					LmpzOjUwMDoxOClcCiAgICBhdCBPYmplY3Qu
-					ZnMucmVhZEZpbGVTeW5jIChmcy5qczozNTI6
-					MTUpXAogICAgYXQgT2JqZWN0Ljxhbm9ueW1v
-					dXM+ICgvVXNlcnMvc2FoYXNkL0Rlc2t0b3Av
-					c2hvcnRjdXRzL3Bhc3RlL1Bhc3RlU2hvcnRj
-					dXQuanM6MzoyOSlcCiAgICBhdCBNb2R1bGUu
-					X2NvbXBpbGUgKG1vZHVsZS5qczo0NjA6MjYp
-					XAogICAgYXQgT2JqZWN0Lk1vZHVsZS5fZXh0
-					ZW5zaW9ucy4uanMgKG1vZHVsZS5qczo0Nzg6
-					MTApXAogICAgYXQgTW9kdWxlLmxvYWQgKG1v
-					ZHVsZS5qczozNTU6MzIpXAogICAgYXQgRnVu
-					Y3Rpb24uTW9kdWxlLl9sb2FkIChtb2R1bGUu
-					anM6MzEwOjEyKVwKICAgIGF0IEZ1bmN0aW9u
-					Lk1vZHVsZS5ydW5NYWluIChtb2R1bGUuanM6
-					NTAxOjEwKVwKICAgIGF0IHN0YXJ0dXAgKG5v
-					ZGUuanM6MTI5OjE2KX0BAAAAIwAAAAEAAAAH
-					AAAAVFhULnJ0ZhAAAAByd/NWtgEAAAAAAAAA
-					AAAA
-					</data>
-					<key>enteredRTFDText</key>
-					<string></string>
-					<key>enteredText</key>
-					<string>fs.js:500
-  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
-                 ^
-Error: ENOENT, no such file or directory 'credentials.json'
-    at Error (native)
-    at Object.fs.openSync (fs.js:500:18)
-    at Object.fs.readFileSync (fs.js:352:15)
-    at Object.&lt;anonymous&gt; (/Users/sahasd/Desktop/shortcuts/paste/PasteShortcut.js:3:29)
-    at Module._compile (module.js:460:26)
-    at Object.Module._extensions..js (module.js:478:10)
-    at Module.load (module.js:355:32)
-    at Function.Module._load (module.js:310:12)
-    at Function.Module.runMain (module.js:501:10)
-    at startup (node.js:129:16)</string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>enteredRTFDData</key>
-					<data>
-					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
-					AQAAAC6XAwAAKwAAAAEAAACPAwAAe1xydGYx
-					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
-					NDA0XGNvY29hc3VicnRmMzQwCntcZm9udHRi
-					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
-					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
-					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
-					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
-					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
-					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
-					YXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
-					b3IwCgpcZjBcZnMyNCBcY2YwIGZzLmpzOjUw
-					MFwKICByZXR1cm4gYmluZGluZy5vcGVuKHBh
-					dGhNb2R1bGUuX21ha2VMb25nKHBhdGgpLCBz
-					dHJpbmdUb0ZsYWdzKGZsYWdzKSwgbW9kZSk7
-					XAogICAgICAgICAgICAgICAgIF5cCkVycm9y
-					OiBFTk9FTlQsIG5vIHN1Y2ggZmlsZSBvciBk
-					aXJlY3RvcnkgJ2NyZWRlbnRpYWxzLmpzb24n
-					XAogICAgYXQgRXJyb3IgKG5hdGl2ZSlcCiAg
-					ICBhdCBPYmplY3QuZnMub3BlblN5bmMgKGZz
-					LmpzOjUwMDoxOClcCiAgICBhdCBPYmplY3Qu
-					ZnMucmVhZEZpbGVTeW5jIChmcy5qczozNTI6
-					MTUpXAogICAgYXQgT2JqZWN0Ljxhbm9ueW1v
-					dXM+ICgvVXNlcnMvc2FoYXNkL0Rlc2t0b3Av
-					c2hvcnRjdXRzL3Bhc3RlL1Bhc3RlU2hvcnRj
-					dXQuanM6MzoyOSlcCiAgICBhdCBNb2R1bGUu
-					X2NvbXBpbGUgKG1vZHVsZS5qczo0NjA6MjYp
-					XAogICAgYXQgT2JqZWN0Lk1vZHVsZS5fZXh0
-					ZW5zaW9ucy4uanMgKG1vZHVsZS5qczo0Nzg6
-					MTApXAogICAgYXQgTW9kdWxlLmxvYWQgKG1v
-					ZHVsZS5qczozNTU6MzIpXAogICAgYXQgRnVu
-					Y3Rpb24uTW9kdWxlLl9sb2FkIChtb2R1bGUu
-					anM6MzEwOjEyKVwKICAgIGF0IEZ1bmN0aW9u
-					Lk1vZHVsZS5ydW5NYWluIChtb2R1bGUuanM6
-					NTAxOjEwKVwKICAgIGF0IHN0YXJ0dXAgKG5v
-					ZGUuanM6MTI5OjE2KX0BAAAAIwAAAAEAAAAH
-					AAAAVFhULnJ0ZhAAAAByd/NWtgEAAAAAAAAA
-					AAAA
-					</data>
-					<key>enteredRTFDText</key>
-					<string></string>
-					<key>enteredText</key>
-					<string>fs.js:500
-  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
-                 ^
-Error: ENOENT, no such file or directory 'credentials.json'
-    at Error (native)
-    at Object.fs.openSync (fs.js:500:18)
-    at Object.fs.readFileSync (fs.js:352:15)
-    at Object.&lt;anonymous&gt; (/Users/sahasd/Desktop/shortcuts/paste/PasteShortcut.js:3:29)
-    at Module._compile (module.js:460:26)
-    at Object.Module._extensions..js (module.js:478:10)
-    at Module.load (module.js:355:32)
-    at Function.Module._load (module.js:310:12)
-    at Function.Module.runMain (module.js:501:10)
-    at startup (node.js:129:16)</string>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.GetSpecifiedText</string>
-				</dict>
+				<dict/>
 				<key>BundleIdentifier</key>
-				<string>com.apple.GetSpecifiedText</string>
+				<string>com.apple.Automator.CopyToClipboard</string>
 				<key>CFBundleVersion</key>
 				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
 				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryText</string>
+					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMGetSpecifiedTextAction</string>
+				<string>AMCopyToClipboardAction</string>
+				<key>InputUUID</key>
+				<string>2418035F-2E83-4E1F-B11F-5C77167850AE</string>
 				<key>Keywords</key>
 				<array>
-					<string>Get</string>
-					<string>Text</string>
+					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>0BDBAC64-C815-439B-902A-DE4D1C09040F</string>
+				<string>D0281912-E7E1-49C2-A7D3-55B52E2A892C</string>
 				<key>UUID</key>
-				<string>04186C99-4B97-42DC-9AE8-5B38B44B089B</string>
+				<string>185234EF-B8B6-47BA-BCCF-3363534DFCEA</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>TextEdit</string>
+					<string>System</string>
 				</array>
 				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>enteredRTFDText</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>enteredText</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>315.000000:237.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
+				<dict/>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 			</dict>
-			<key>isViewVisible</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -305,23 +155,6 @@ Error: ENOENT, no such file or directory 'credentials.json'
 					<integer>4</integer>
 					<key>replaceExistingFiles</key>
 					<true/>
-					<key>textFormat</key>
-					<integer>1</integer>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>checkedForDefaultEncoding</key>
-					<true/>
-					<key>newFileFolderPath</key>
-					<string>/Users/sahasd/Desktop/shortcuts/paste</string>
-					<key>newFileName</key>
-					<string>pasted.txt</string>
-					<key>newFileTextEncoding</key>
-					<integer>4</integer>
-					<key>replaceExistingFiles</key>
-					<true/>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.Automator.NewTextFile</string>
 					<key>textFormat</key>
 					<integer>1</integer>
 				</dict>
@@ -444,7 +277,7 @@ Error: ENOENT, no such file or directory 'credentials.json'
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>315.000000:417.000000</string>
+				<string>315.000000:316.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Text File.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -493,13 +326,6 @@ Error: ENOENT, no such file or directory 'credentials.json'
 				<dict>
 					<key>source</key>
 					<string>on run {input, parameters}	do shell script "usr/local/bin/node Users/sahasd/Desktop/shortcuts/paste/PasteShortcut.js"end run</string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>source</key>
-					<string>on run {input, parameters}	do shell script "usr/local/bin/node Users/sahasd/Desktop/shortcuts/paste/PasteShortcut.js"end run</string>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.Automator.RunScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -553,7 +379,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>315.000000:663.000000</string>
+				<string>315.000000:562.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -602,15 +428,6 @@ end run</string>
 					<integer>2</integer>
 					<key>pauseUnit</key>
 					<integer>0</integer>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>pauseDuration</key>
-					<integer>2</integer>
-					<key>pauseUnit</key>
-					<integer>0</integer>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.Automator.Pause</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Pause</string>
@@ -673,7 +490,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>315.000000:768.000000</string>
+				<string>315.000000:667.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -738,21 +555,6 @@ end run</string>
 					<string>/bin/bash</string>
 					<key>source</key>
 					<string></string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>COMMAND_STRING</key>
-					<string>open -t Desktop/shortcuts/paste/pasted.txt</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>0</integer>
-					<key>shell</key>
-					<string>/bin/bash</string>
-					<key>source</key>
-					<string></string>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -857,7 +659,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>315.000000:951.000000</string>
+				<string>315.000000:850.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -890,11 +692,6 @@ end run</string>
 				<string>Get Contents of TextEdit Document</string>
 				<key>ActionParameters</key>
 				<dict/>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>temporary items path</key>
-					<string>/var/folders/bp/219w366n5tv57qph4r8t_6t80000gp/T/20BDF582-03A5-4493-9524-B9275B89DA5F/1/com.apple.Automator.GetContentofTextEditDocument</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.GetContentofTextEditDocument</string>
 				<key>CFBundleVersion</key>
@@ -1160,7 +957,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>315.000000:1266.000000</string>
+				<string>315.000000:1165.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1170,52 +967,52 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>20C927F6-1A81-4946-8793-59C752F8A702</key>
+		<key>2890EBA9-73F6-44EE-9746-467F723634B7</key>
 		<dict>
 			<key>from</key>
-			<string>04186C99-4B97-42DC-9AE8-5B38B44B089B - 04186C99-4B97-42DC-9AE8-5B38B44B089B</string>
+			<string>185234EF-B8B6-47BA-BCCF-3363534DFCEA - 185234EF-B8B6-47BA-BCCF-3363534DFCEA</string>
 			<key>to</key>
 			<string>6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF - 6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF</string>
 		</dict>
-		<key>34443018-2454-4097-A3AB-3832345ADD36</key>
-		<dict>
-			<key>from</key>
-			<string>5800A7F6-F934-47EA-BF39-289D55E3EBF7 - 5800A7F6-F934-47EA-BF39-289D55E3EBF7</string>
-			<key>to</key>
-			<string>6D0F304C-76B1-4123-8F84-C8B20FC5F5B0 - 6D0F304C-76B1-4123-8F84-C8B20FC5F5B0</string>
-		</dict>
-		<key>6802016A-FB9A-4EFE-B0F9-6169F7C38BC6</key>
-		<dict>
-			<key>from</key>
-			<string>6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF - 6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF</string>
-			<key>to</key>
-			<string>ED2C56C6-FB65-48BC-BFAD-B0FE836C9217 - ED2C56C6-FB65-48BC-BFAD-B0FE836C9217</string>
-		</dict>
-		<key>94F9D928-FA1C-4314-B763-E81154FDB4E5</key>
+		<key>41859B34-4726-4027-945F-319ED6F76F1A</key>
 		<dict>
 			<key>from</key>
 			<string>6D0F304C-76B1-4123-8F84-C8B20FC5F5B0 - 6D0F304C-76B1-4123-8F84-C8B20FC5F5B0</string>
 		</dict>
-		<key>B4797AAA-7C7F-48FA-AE68-E2118C60CB64</key>
-		<dict>
-			<key>from</key>
-			<string>94BD91C1-D88E-44D6-97EC-63E06CA86EFD - 94BD91C1-D88E-44D6-97EC-63E06CA86EFD</string>
-			<key>to</key>
-			<string>A12091EC-236D-4C02-9221-B4D0DB0AAE19 - A12091EC-236D-4C02-9221-B4D0DB0AAE19</string>
-		</dict>
-		<key>C9649365-2DAD-46C3-AB3E-695B24127DAA</key>
+		<key>45E61CF6-4BBF-449A-8B7C-6F6F2D0786E8</key>
 		<dict>
 			<key>from</key>
 			<string>A12091EC-236D-4C02-9221-B4D0DB0AAE19 - A12091EC-236D-4C02-9221-B4D0DB0AAE19</string>
 			<key>to</key>
 			<string>B59179CE-5114-4E17-AF8A-07BB7EDDB834 - B59179CE-5114-4E17-AF8A-07BB7EDDB834</string>
 		</dict>
-		<key>E0681E21-A9E1-4DD0-AE64-6DD82A79A80D</key>
+		<key>7FD53867-E277-495B-85B7-FAAC3AEAAD52</key>
+		<dict>
+			<key>from</key>
+			<string>6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF - 6E44EEAC-501B-4BF5-A3BF-BB10AC9636CF</string>
+			<key>to</key>
+			<string>ED2C56C6-FB65-48BC-BFAD-B0FE836C9217 - ED2C56C6-FB65-48BC-BFAD-B0FE836C9217</string>
+		</dict>
+		<key>B6E6C276-CA84-483E-BCE6-262E042B7268</key>
+		<dict>
+			<key>from</key>
+			<string>94BD91C1-D88E-44D6-97EC-63E06CA86EFD - 94BD91C1-D88E-44D6-97EC-63E06CA86EFD</string>
+			<key>to</key>
+			<string>A12091EC-236D-4C02-9221-B4D0DB0AAE19 - A12091EC-236D-4C02-9221-B4D0DB0AAE19</string>
+		</dict>
+		<key>D374896B-02AD-45CC-9629-34581DA17920</key>
 		<dict>
 			<key>from</key>
 			<string>ED2C56C6-FB65-48BC-BFAD-B0FE836C9217 - ED2C56C6-FB65-48BC-BFAD-B0FE836C9217</string>
 			<key>to</key>
 			<string>5800A7F6-F934-47EA-BF39-289D55E3EBF7 - 5800A7F6-F934-47EA-BF39-289D55E3EBF7</string>
+		</dict>
+		<key>E7C6B9CA-ECB1-4A00-9849-DEAEB7EAB393</key>
+		<dict>
+			<key>from</key>
+			<string>5800A7F6-F934-47EA-BF39-289D55E3EBF7 - 5800A7F6-F934-47EA-BF39-289D55E3EBF7</string>
+			<key>to</key>
+			<string>6D0F304C-76B1-4123-8F84-C8B20FC5F5B0 - 6D0F304C-76B1-4123-8F84-C8B20FC5F5B0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
