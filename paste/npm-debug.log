@@ -1,19 +1,35 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 'PasteShortcut.js' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
 2 info using npm@2.11.3
 3 info using node@v0.12.7
-4 verbose config Skipping project config: /Users/sahasd/.npmrc. (matches userconfig)
-5 verbose stack Error: ENOENT, open '/Users/sahasd/package.json'
-5 verbose stack     at Error (native)
-6 verbose cwd /Users/sahasd/Desktop/shortcuts/paste
-7 error Darwin 15.3.0
-8 error argv "node" "/usr/local/bin/npm" "run" "PasteShortcut.js"
-9 error node v0.12.7
-10 error npm  v2.11.3
-11 error path /Users/sahasd/package.json
-12 error code ENOENT
-13 error errno -2
-14 error enoent ENOENT, open '/Users/sahasd/package.json'
-14 error enoent This is most likely not a problem with npm itself
-14 error enoent and is related to npm not being able to find a file.
-15 verbose exit [ -2, true ]
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart paste@0.0.1
+6 info start paste@0.0.1
+7 verbose unsafe-perm in lifecycle true
+8 info paste@0.0.1 Failed to exec start script
+9 verbose stack Error: paste@0.0.1 start: `node PasteShortcut.js`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+9 verbose stack     at EventEmitter.emit (events.js:110:17)
+9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid paste@0.0.1
+11 verbose cwd /Users/sahasd/Desktop/shortcuts/paste
+12 error Darwin 15.3.0
+13 error argv "node" "/usr/local/bin/npm" "start"
+14 error node v0.12.7
+15 error npm  v2.11.3
+16 error code ELIFECYCLE
+17 error paste@0.0.1 start: `node PasteShortcut.js`
+17 error Exit status 1
+18 error Failed at the paste@0.0.1 start script 'node PasteShortcut.js'.
+18 error This is most likely a problem with the paste package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     node PasteShortcut.js
+18 error You can get their info via:
+18 error     npm owner ls paste
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

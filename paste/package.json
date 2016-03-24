@@ -1,0 +1,11 @@
+{
+  "name": "paste",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node PasteShortcut.js"
+  },
+  "dependencies": {
+    "pastebin-js": "^0.4.0"
+  }
+}
