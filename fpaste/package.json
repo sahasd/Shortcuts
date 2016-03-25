@@ -1,0 +1,12 @@
+{
+  "name": "paste",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node PasteShortcut.js"
+  },
+  "dependencies": {
+    "better-pastebin": "^0.1.5",
+    "yargs": "^4.3.2"
+  }
+}
