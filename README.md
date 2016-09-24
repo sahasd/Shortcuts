@@ -17,6 +17,7 @@ File shortcuts allows you to shoare code easily with pastebin by using services 
 1. Pastebin limits number of pastes per day to 20 so keep that in mind
 2. The automations can't handle RTF and will crash if you attempt to use it. (Working on fixing this currently)
 
-
-If you found terminal-here useful please star the repository and as always feel free to report any issues or suggestions. Thank you for your support!
+## Contributing
+1. If you have any suggestions or shortcuts that you would like added, Open an issue.
+2. If you would like to add your own shortcuts, make sure you edit the readme and provide proper usage instructions
 
