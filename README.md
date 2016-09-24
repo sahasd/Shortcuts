@@ -19,5 +19,5 @@ File shortcuts allows you to shoare code easily with pastebin by using services 
 
 ## Contributing
 1. If you have any suggestions or shortcuts that you would like added, Open an issue.
-2. If you would like to add your own shortcuts, make sure you edit the readme and provide proper usage instructions
+2. If you would like to add your own shortcuts, provide installation and usage instructions
 
